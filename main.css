@@ -1,0 +1,300 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+.container {
+  width: 100%;
+  max-width: 1624px;
+  padding: 0 10px;
+  margin: 0 auto;
+}
+
+.header-wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.click-wrapper {
+  display: flex;
+  gap: 48px;
+  list-style: none;
+}
+
+.click > a {
+  text-decoration: none;
+  color: #9093a6;
+}
+
+header {
+  padding: 42px 92px;
+}
+
+.btn {
+  width: 118px;
+  height: 72px;
+  border: 2px solid #ffe145;
+}
+
+.btn-two {
+  width: 118px;
+  height: 72px;
+  border: 2px solid #ffe145;
+}
+
+.section {
+  width: 100%;
+  max-width: 1440px;
+  padding: 0 10px;
+  margin: 0 auto;
+  padding: 42px 92px;
+}
+
+.header-one {
+  font-size: 58px;
+  font-weight: 300;
+  line-height: 64px;
+  letter-spacing: 0.05em;
+  text-align: left;
+}
+
+.section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header-two {
+  font-size: 36px;
+  font-weight: 300;
+  line-height: 64px;
+  letter-spacing: 0.08em;
+  text-align: left;
+  color: #3f4255;
+}
+
+.btn-three {
+  width: 118px;
+  height: 48px;
+  left: 1137px;
+  padding: 16px 24px 16px 24px;
+  gap: 10px;
+  border-radius: 4px 0px 0px 0px;
+  opacity: 0px;
+  background: #f2f4fa;
+  color: #3f4255;
+  border: none;
+}
+
+.menu-header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.menu {
+  width: 100%;
+  max-width: 1440px;
+  padding: 0 10px;
+  margin: 0 auto;
+  padding: 42px 92px;
+}
+
+.menu-images {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.heading-2 {
+  font-size: 36px;
+  font-weight: 300;
+  line-height: 64px;
+  letter-spacing: 0.08em;
+  text-align: left;
+  color: #3f4255;
+}
+
+.info {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.5px;
+  text-align: left;
+  color: #3f4255;
+}
+
+.input-email {
+  width: 336px;
+  height: 72px;
+  background: #ffffff;
+  border: none;
+  box-shadow: 0px 8px 40px 0px #00000014;
+}
+
+.btn-send {
+  width: 88px;
+  height: 74px;
+  top: 113px;
+  left: 1254px;
+  padding: 28px 24px 28px 24px;
+  gap: 10px;
+  border-radius: 4px 0px 0px 0px;
+  opacity: 0px;
+  background: #ffe145;
+  border: none;
+}
+
+.feedback {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  max-width: 1440px;
+  padding: 0 10px;
+  margin: 0 auto;
+  padding: 42px 92px;
+  background: #f2f4fa;
+}
+
+.specialities {
+  width: 100%;
+  max-width: 1440px;
+  padding: 0 10px;
+  margin: 0 auto;
+  padding: 42px 92px;
+}
+
+.show-images {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.img-usp {
+  width: 100%;
+  max-width: 1440px;
+  padding: 0 10px;
+  margin: 0 auto;
+  padding: 42px 92px;
+}
+
+.map {
+  width: 100%;
+  max-width: 1440px;
+  padding: 0 10px;
+  margin: 0 auto;
+  padding: 42px 92px;
+}
+
+.infoo {
+  display: flex;
+}
+
+.kitchen {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.social-network {
+  width: 100%;
+  max-width: 1440px;
+  padding: 0 10px;
+  margin: 0 auto;
+  padding: 42px 92px;
+}
+
+.language-selector {
+  display: flex;
+  align-items: center;
+  color: #bfc2d0;
+  font-size: 36px;
+  position: relative;
+}
+
+.language {
+  margin-right: 10px;
+}
+
+.dropdown {
+  width: 24px;
+  height: 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: transparent;
+  border: 2px solid transparent;
+  position: relative;
+}
+
+.dropdown-icon {
+  fill: #bfc2d0;
+}
+
+.dropdown:hover .dropdown-icon {
+  fill: #fff;
+}
+
+.dropdown:active {
+  background-color: #4c4f63;
+  border-color: #62657e;
+}
+
+.ul {
+  list-style: none;
+}
+
+.li > a {
+  text-decoration: none;
+  color: #d4d7e5;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 20px;
+  letter-spacing: 0.5px;
+  text-align: left;
+}
+
+.wrapper-footer {
+  display: flex;
+}
+
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #3f4255;
+  width: 100%;
+  max-width: 1440px;
+  padding: 0 10px;
+  margin: 0 auto;
+  padding: 42px 92px;
+}
+
+.heading-3 {
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 32px;
+  text-align: left;
+  color: #ffffff;
+}
+
+.logo {
+  width: 184.05px;
+  height: 24px;
+  gap: 0px;
+  opacity: 0px;
+  color: #ffffff;
+}
+
+.end {
+  display: flex;
+  justify-content: space-between;
+  background: #3f4255;
+  width: 100%;
+  max-width: 1440px;
+  padding: 0 10px;
+  margin: 0 auto;
+  padding: 42px 92px;
+}
+
+.endd{
+  color: white;
+}
